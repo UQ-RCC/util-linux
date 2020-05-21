@@ -67,7 +67,7 @@ void uuid_unparse_f(const uuid_t uu, char *out, int flags)
 
 void uuid_unparse_lower(const uuid_t uu, char *out)
 {
-	uuid_unparse_f(uu, out, 0);
+    uuid_unparse_f(uu, out, 0);
 }
 
 void uuid_unparse_upper(const uuid_t uu, char *out)
